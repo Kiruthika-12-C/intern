@@ -778,14 +778,6 @@ body {
 }
 
 
-/* Base styles for mobile */
-body {
-    font-size: 16px; /* Base font size */
-}
-
-.container {
-    padding: 10px; /* Padding for mobile */
-}
 
 /* Styles for tablets and larger screens */
 @media (min-width: 768px) {
@@ -814,6 +806,28 @@ nav a {
     display: block; /* Make links block elements */
 }
 
+
+/* Base styles for mobile */
+body {
+    font-size: 16px; /* Base font size */
+    padding: 10px; /* Base padding */
+}
+
+/* Styles for tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 18px; /* Larger font size for tablets */
+        padding: 20px; /* More padding for tablets */
+    }
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+    body {
+        font-size: 20px; /* Even larger font size for desktops */
+        padding: 30px; /* More padding for desktops */
+    }
+}
 
 
 

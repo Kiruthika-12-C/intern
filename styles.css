@@ -769,4 +769,20 @@ body {
     }
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center items */
+}
+
+@media (min-width: 768px) {
+    .flex-container {
+        flex-direction: row; /* Change to row on larger screens */
+    }
+}
+nav a {
+    padding: 15px; /* Increase padding for easier tapping */
+    display: block; /* Make links block elements */
+}
+
 

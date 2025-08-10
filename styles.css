@@ -609,7 +609,7 @@ body {
 .project-row {
   display: flex;
   padding: var(--spacing-md);
-  flex-direction: column; /* Changed from row to column for better mobile responsiveness */
+  flex-direction: row; /* Changed from row to column for better mobile responsiveness */
   gap: var(--spacing-xl);
   margin-bottom: var(--spacing-2xl);
   align-items: center;
@@ -962,6 +962,7 @@ body {
         transform: translateY(0);
     }
 }
+
 
 
 

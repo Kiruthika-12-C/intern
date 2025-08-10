@@ -626,8 +626,8 @@ body {
 } */
 
   .project-image img {
-  width: 120px;
-  height: 90px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 2px 8px var(--shadow);
@@ -962,6 +962,7 @@ body {
         transform: translateY(0);
     }
 }
+
 
 
 

@@ -426,7 +426,7 @@ body {
 .project-row {
   display: flex;
   padding: var(--spacing-md);
-  flex-direction: column;
+  flex-direction: row;
 
     
   gap: var(--spacing-xl);

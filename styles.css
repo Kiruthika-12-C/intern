@@ -182,9 +182,9 @@ body {
     margin: 0 auto;
 }
 .container {
-/*   max-width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md); */
+  padding: 0 var(--spacing-md);
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap onto the next line */
     justify-content: space-between; 
@@ -782,60 +782,61 @@ body {
 
 
 /* Styles for tablets and larger screens */
-@media (min-width: 768px) {
+/*  @media (min-width: 768px) {
     body {
-        font-size: 18px; /* Larger font size for tablets */
+        font-size: 18px;
     }
 
     .container {
-        padding: 20px; /* More padding for larger screens */
+        padding: 20px;
     }
 }
 
 .flex-container {
     display: flex;
-    flex-direction: column; /* Stack items vertically on mobile */
-    align-items: center; /* Center items */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 @media (min-width: 768px) {
     .flex-container {
-        flex-direction: row; /* Change to row on larger screens */
+        flex-direction: row; 
     }
 }
 nav a {
-    padding: 15px; /* Increase padding for easier tapping */
-    display: block; /* Make links block elements */
+    padding: 15px; 
+    display: block; 
 }
 
 
-/* Base styles for mobile */
 body {
-    font-size: 16px; /* Base font size */
-    padding: 10px; /* Base padding */
+    font-size: 16px; 
+    padding: 10px; 
 }
 
-/* Styles for tablets */
+
 @media (min-width: 481px) and (max-width: 768px) {
     body {
-        font-size: 18px; /* Larger font size for tablets */
-        padding: 20px; /* More padding for tablets */
+        font-size: 18px; 
+        padding: 20px; 
     }
 }
 
-/* Styles for larger screens */
+
 @media (min-width: 769px) {
     body {
-        font-size: 20px; /* Even larger font size for desktops */
-        padding: 30px; /* More padding for desktops */
+        font-size: 20px; 
+        padding: 30px; 
     }
 }
 
 img {
-    max-width: 100%; /* Ensures images do not exceed their container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
+ 
 
 
 
 
+ */

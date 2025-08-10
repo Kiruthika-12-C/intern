@@ -621,7 +621,7 @@ body {
 }
 .project-image {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
 }
 .project-image img {
   width: 100%;
@@ -937,3 +937,4 @@ body {
         transform: translateY(0);
     }
 }
+
